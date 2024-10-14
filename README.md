@@ -3,8 +3,8 @@
 
 # Install (required)🤩
 ```
-git clone https://github.com/EleutherAI/lm-evaluation-harness
-cd ./lm-evaluation-harness
+git clone https://github.com/Marker-Inc-Korea/KoLMM_Eval
+cd ./KoLMM_Eval
 pip install -e .
 pip install -e ".[multilingual]"
 
