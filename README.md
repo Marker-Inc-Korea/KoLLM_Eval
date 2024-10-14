@@ -3,13 +3,21 @@
 > Logickor, K2-Eval, and LM-Harness 평가를 하나의 코드에서 실행
 
 # Install (required)🤩
+First, download LM-Eval-Harness.  
 ```bash
-git clone https://github.com/Marker-Inc-Korea/KoLMM_Eval
-cd ./KoLMM_Eval
+git clone https://github.com/EleutherAI/lm-evaluation-harness
+cd ./lm-evaluation-harness
 pip install -e .
 pip install -e ".[multilingual]"
 
 pip install vllm
+```
+  
+Lastly, you need to move logickor and k2-eval codes.  
+```
+MTBench (folder)
+- logickor.py
+- k2_eval.py
 ```
 
 # Implementation🤩
