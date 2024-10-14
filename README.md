@@ -1,6 +1,6 @@
 # KoLMM_Eval🥰
 한국어 벤치마크 평가 코드 통합본(?) **2024.10.15 Version**  
-> Logickor, K2-Eval, LM-Harness 평가를 하나의 코드에서 실행
+> Logickor, K2-Eval, and LM-Harness 평가를 하나의 코드에서 실행
 
 # Install (required)🤩
 ```bash
