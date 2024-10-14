@@ -1,8 +1,9 @@
 # KoLMM_Eval🥰
-한국어 벤치마크 평가 코드 통합본(?)
+한국어 벤치마크 평가 코드 통합본(?) **2024.10.15 Version**  
+> Logickor, K2-Eval, LM-Harness 평가를 하나의 코드에서 실행
 
 # Install (required)🤩
-```
+```bash
 git clone https://github.com/Marker-Inc-Korea/KoLMM_Eval
 cd ./KoLMM_Eval
 pip install -e .
@@ -12,7 +13,7 @@ pip install vllm
 ```
 
 # Implementation🤩
-```
+```bash
 sh korean_eval.sh
 ```
 You must set `api key` through OpenAI.  
