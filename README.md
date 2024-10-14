@@ -15,6 +15,9 @@ pip install vllm
   
 Lastly, you need to move below `files`.  
 ```
+questions.jsonl # logickor
+data_k2-eval-generation.csv # k2_eval
+
 korean_eval.sh
 MTBench 
 ├──logickor.py
