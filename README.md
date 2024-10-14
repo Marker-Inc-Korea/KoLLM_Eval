@@ -32,7 +32,7 @@ You must set `api key` through OpenAI.
 > You can test on a A100 GPU (using COLAB).
 
 # Examples🤩
-| Model | Logickor(zero-shot) | K^2-Eval | Haerae(Acc) | CSAT-QA(Acc) | kmmlu(Acc) |
+| Model | Logickor(0-shot) | K^2-Eval | Haerae(Acc) | CSAT-QA(Acc) | kmmlu(Acc) |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `Human-MarkrAI/Gukbap-Gemma2-9B` | **8.77** | **4.50** | 62.60 | 43.85 | **46.46** |
 | `google/gemma-2-9b-it` | 8.32 | 4.38 | 64.34 | 47.06 | 42.51 | 
