@@ -15,9 +15,10 @@ pip install vllm
   
 Lastly, you need to move logickor and k2-eval codes.  
 ```
-MTBench (folder)
-- logickor.py
-- k2_eval.py
+korean_eval.sh
+MTBench 
+├──logickor.py
+└──k2_eval.py
 ```
 
 # Implementation🤩
