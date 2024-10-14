@@ -13,7 +13,7 @@ pip install -e ".[multilingual]"
 pip install vllm
 ```
   
-Lastly, you need to move logickor and k2-eval codes.  
+Lastly, you need to move below `files`.  
 ```
 korean_eval.sh
 MTBench 
