@@ -42,7 +42,7 @@ You must set `api key` through OpenAI.
 | `LGAI/EXAONE-3.0-7.8B-Instruct` | 8.64 | 4.43 | **77.09** | 34.76 | 35.23 |
 | `yanolja/EEVE-Korean-Instruct-10.8B-v1.0` | 6.03 | 3.51 | 70.94 | 38.50 | 41.99 |
 > Evaluator: GPT-4-1106-preview
-> Logickor (0~10) & K^2-Eval (0~5)
+> Logickor [0,10] & K^2-Eval [0,5]
 
 # References🌠
 [Logickor](https://github.com/instructkr/LogicKor)  
