@@ -26,7 +26,7 @@ python lm_eval \
     --num_fewshot 0
 
 ## Logickor eval (2024.10.14 ver)
-python ./MTBench/mtbench.py \
+python ./MTBench/logickor.py \
     --is_multi_turn 1 \
     --eval_model gpt-4-1106-preview \
     --repo_name HumanF-MarkrAI \
