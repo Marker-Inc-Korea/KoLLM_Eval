@@ -5,7 +5,7 @@
 **🍚[Gukbap-Series LLM](https://huggingface.co/collections/HumanF-MarkrAI/gukbap-series-llm-66d32e5e8da15c515181b071)🍚**
   
 # Install (required)🤩
-First, download **LM-Eval-Harness**.  
+First, download **⭐LM-Eval-Harness**.  
 ```bash
 git clone https://github.com/EleutherAI/lm-evaluation-harness
 cd ./lm-evaluation-harness
@@ -15,7 +15,7 @@ pip install -e ".[multilingual]"
 pip install vllm
 ```
   
-Secondly, download **KoMT-Bench**.
+Secondly, download **⭐KoMT-Bench**.
 ```bash
 (we will add)
 ```
