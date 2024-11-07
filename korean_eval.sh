@@ -1,3 +1,5 @@
+export OPENAI_API_KEY='[...api...]'
+
 ## CSAT-QA eval
 python lm_eval \
     --model hf \
