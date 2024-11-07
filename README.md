@@ -47,7 +47,7 @@ You must set `api key` through OpenAI.
 
 ## Debug lists
 1. `ImportError: libgthread-2.0.so.0: cannot open shared object file: No such file or directory`: **apt-get install libglib2.0-0**
-2. `RuntimeError: Unable to open file at /home/jovyan/LLM_Eval/lm-evaluation-harness/KoMT-Bench/FastChat/fastchat/llm_judge/data/mt_bench/model_judgment/detector.tflite`: move `detector.tflite` file into `fastchat/llm_judge/data/mt_bench/model_judgement.
+2. `RuntimeError: Unable to open file at /home/jovyan/LLM_Eval/lm-evaluation-harness/KoMT-Bench/FastChat/fastchat/llm_judge/data/mt_bench/model_judgment/detector.tflite`: **Move `detector.tflite` file into `fastchat/llm_judge/data/mt_bench/model_judgement**.
 > Maybe, you will find detector.tflite in KoMT-Bench/FastChat.
    
 # Examples🤩
