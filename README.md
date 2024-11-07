@@ -1,6 +1,6 @@
 # KoLLM_Eval🥰
-한국어 벤치마크 평가 코드 통합본(?) **2024.10.15 Version**  
-> Logickor, K2-Eval, and LM-Harness 평가를 하나의 코드에서 실행
+한국어 벤치마크 평가 코드 통합본(?) **2024.11.09 Version**  
+> Logickor, K2-Eval, and LM-Harness, KoMT-Bench 평가를 하나의 코드에서 실행
   
 **🍚[Gukbap-Series LLM](https://huggingface.co/collections/HumanF-MarkrAI/gukbap-series-llm-66d32e5e8da15c515181b071)🍚**
   
@@ -13,6 +13,11 @@ pip install -e .
 pip install -e ".[multilingual]"
 
 pip install vllm
+```
+  
+Secondly, download KoMT-Bench
+```bash
+(we will add)
 ```
   
 Lastly, you need to move below `files`.  
@@ -48,3 +53,4 @@ You must set `api key` through OpenAI.
 [Logickor](https://github.com/instructkr/LogicKor)  
 [LM-Harness](https://github.com/EleutherAI/lm-evaluation-harness)  
 [K2-eval](https://huggingface.co/datasets/HAERAE-HUB/K2-Eval)   
+[KoMT-Bench](https://github.com/LG-AI-EXAONE/KoMT-Bench/tree/main)  
