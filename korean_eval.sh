@@ -47,3 +47,34 @@ python ./MTBench/k2_eval.py \
     --max_token 4096 \ 
     --huggingface_token '[...token...]' \
     --api '[...api...]'
+
+#'''
+########## KoMT-Bench scripts (run_ko_mt.sh)
+cd ./KoMT-Bench/FastChat/fastchat/llm_judge/
+# Generating model answers
+
+CUDA_VISIBLE_DEVICES=0 python gen_model_answer.py \
+		--model-path HumanF-MarkrAI/Gukbap-Gemma2-9B \
+		--model-id Gukbap-Gemma2-9B \
+		--dtype bfloat16 
+
+
+# Assessing the model answer through LLM-as-a-judge (here, "gpt-4-0613")
+python gen_judgment.py \
+    --model-list Gukbap-Gemma2-9B
+
+
+# Giving a penalty to the score of non-Korean responses
+cd ./data/mt_bench/model_judgment
+python detector.py \
+    --model_id Gukbap-Gemma2-9B
+
+
+# Showing the evaluation results
+cd ../../..
+python show_result.py \
+    --mode single \
+    --input-file ./data/mt_bench/model_judgment/Gukbap-Gemma2-9B_single_final.jsonl
+
+cd ../../
+#'''
