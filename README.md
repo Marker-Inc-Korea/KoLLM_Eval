@@ -17,19 +17,26 @@ pip install vllm
   
 Secondly, download **⭐KoMT-Bench**.
 ```bash
-(we will add)
+git clone https://github.com/LG-AI-EXAONE/KoMT-Bench
+cd ./KoMT-Bench/FastChat
+sh setting.sh
+cd ../../
 ```
   
-Lastly, you need to move below `files`.  
+Lastly, you need to move below `files` into `./lm-evaluation-harness` folder.
 ```
+KoMT-Bench (folder)
+lm_eval (folder)
 questions.jsonl # logickor
 data_k2-eval-generation.csv # k2_eval
-
-korean_eval.sh
-MTBench 
+MTBench (folder)
 ├──logickor.py
 └──k2_eval.py
+
+korean_eval.sh
 ```
+
+> If `pydantic` module has been error, please re-install pydantic. Then, the problem will be solved.
 
 # Implementation🤩
 ```bash
@@ -47,7 +54,7 @@ You must set `api key` through OpenAI.
 | `LGAI/EXAONE-3.0-7.8B-Instruct` | 8.64 | 4.43 | **77.09** | 34.76 | 35.23 |
 | `yanolja/EEVE-Korean-Instruct-10.8B-v1.0` | 6.03 | 3.51 | 70.94 | 38.50 | 41.99 |
 > Evaluator: GPT-4-1106-preview
-> Logickor [0,10] & K^2-Eval [0,5]
+> Logickor [0,10], K^2-Eval [0,5] & KoMT-Bench [0,10]
 
 # References🌠
 [Logickor](https://github.com/instructkr/LogicKor)  
