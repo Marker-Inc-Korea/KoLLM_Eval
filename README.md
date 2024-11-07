@@ -1,6 +1,6 @@
 # KoLLM_Eval🥰
 한국어 벤치마크 평가 코드 통합본(?) **2024.11.09 Version**  
-> Logickor, K2-Eval, and LM-Harness, KoMT-Bench 평가를 하나의 코드에서 실행
+> Logickor, K2-Eval, LM-Harness and KoMT-Bench 평가를 하나의 코드에서 실행
   
 **🍚[Gukbap-Series LLM](https://huggingface.co/collections/HumanF-MarkrAI/gukbap-series-llm-66d32e5e8da15c515181b071)🍚**
   
