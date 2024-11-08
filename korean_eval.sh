@@ -56,7 +56,9 @@ cd ./KoMT-Bench/FastChat/fastchat/llm_judge/
 CUDA_VISIBLE_DEVICES=0 python gen_model_answer.py \
 		--model-path HumanF-MarkrAI/Gukbap-Gemma2-9B \
 		--model-id Gukbap-Gemma2-9B \
-		--dtype bfloat16 
+		--dtype float16 
+	        --max-new-token 4096
+	        --num-gpus-total 3
 
 
 # Assessing the model answer through LLM-as-a-judge (here, "gpt-4-0613")
