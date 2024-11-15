@@ -57,7 +57,7 @@ You must set `api key` through OpenAI.
 | `google/gemma-2-9b-it` | 8.32 | 4.38 | 64.34 | 47.06 | 42.51 | 7.92 |
 | `rtzr/ko-gemma-2-9b-it` | 8.67 | 4.40 | 64.07 | **48.13** | 44.75 | NaN |
 | `LGAI/EXAONE-3.0-7.8B-Instruct` | 8.64 | 4.43 | **77.09** | 34.76 | 35.23 | **8.92** |
-| `yanolja/EEVE-Korean-Instruct-10.8B-v1.0` | 6.03 | 3.51 | 70.94 | 38.50 | 41.99 | NaN |
+| `yanolja/EEVE-Korean-Instruct-10.8B-v1.0` | 6.03 | 3.51 | 70.94 | 38.50 | 41.99 | 7.08 |
   
 > Logickor and K^2 Eval Evaluator: `GPT-4-1106-preview`  
 > KoMT-Bench Evaluator: `gpt-4-0613` (same manner as LG-AI)  
