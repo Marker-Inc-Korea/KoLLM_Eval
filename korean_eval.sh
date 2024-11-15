@@ -56,7 +56,7 @@ cd ./KoMT-Bench/FastChat/fastchat/llm_judge/
 CUDA_VISIBLE_DEVICES=0 python gen_model_answer.py \
 		--model-path HumanF-MarkrAI/Gukbap-Gemma2-9B \
 		--model-id Gukbap-Gemma2-9B \
-		--dtype float16 \
+		--dtype bfloat16 \
 	        --max-new-token 2048
 
 
